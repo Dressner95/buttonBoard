@@ -1,0 +1,702 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small R1
+U 1 1 5DC0CED5
+P 3750 2500
+F 0 "R1" H 3809 2546 50  0000 L CNN
+F 1 "R_Small" H 3809 2455 50  0000 L CNN
+F 2 "OPL_Resistor:R0805" H 3750 2500 50  0001 C CNN
+F 3 "~" H 3750 2500 50  0001 C CNN
+	1    3750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5DC0EE89
+P 5500 2500
+F 0 "R3" H 5559 2546 50  0000 L CNN
+F 1 "R_Small" H 5559 2455 50  0000 L CNN
+F 2 "OPL_Resistor:R0805" H 5500 2500 50  0001 C CNN
+F 3 "~" H 5500 2500 50  0001 C CNN
+	1    5500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5DC0F8E8
+P 7250 2500
+F 0 "R5" H 7309 2546 50  0000 L CNN
+F 1 "R_Small" H 7309 2455 50  0000 L CNN
+F 2 "OPL_Resistor:R0805" H 7250 2500 50  0001 C CNN
+F 3 "~" H 7250 2500 50  0001 C CNN
+	1    7250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5DC0FF9C
+P 3750 2000
+F 0 "#PWR03" H 3750 1850 50  0001 C CNN
+F 1 "+3.3V" H 3765 2173 50  0000 C CNN
+F 2 "" H 3750 2000 50  0001 C CNN
+F 3 "" H 3750 2000 50  0001 C CNN
+	1    3750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR011
+U 1 1 5DC11BEA
+P 7250 2000
+F 0 "#PWR011" H 7250 1850 50  0001 C CNN
+F 1 "+3.3V" H 7265 2173 50  0000 C CNN
+F 2 "" H 7250 2000 50  0001 C CNN
+F 3 "" H 7250 2000 50  0001 C CNN
+	1    7250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:FSM4JSMATR S1
+U 1 1 5DC1377B
+P 3550 3100
+F 0 "S1" H 3550 3447 60  0000 C CNN
+F 1 "FSM4JSMATR" H 3550 3341 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm" H 3750 3300 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 3750 3400 60  0001 L CNN
+F 4 "450-1759-1-ND" H 3750 3500 60  0001 L CNN "Digi-Key_PN"
+F 5 "FSM4JSMATR" H 3750 3600 60  0001 L CNN "MPN"
+F 6 "Switches" H 3750 3700 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 3750 3800 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 3750 3900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638" H 3750 4000 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 3750 4100 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 3750 4200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3750 4300 60  0001 L CNN "Status"
+	1    3550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:FSM4JSMATR S3
+U 1 1 5DC196E0
+P 5300 3100
+F 0 "S3" H 5300 3447 60  0000 C CNN
+F 1 "FSM4JSMATR" H 5300 3341 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm" H 5500 3300 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 5500 3400 60  0001 L CNN
+F 4 "450-1759-1-ND" H 5500 3500 60  0001 L CNN "Digi-Key_PN"
+F 5 "FSM4JSMATR" H 5500 3600 60  0001 L CNN "MPN"
+F 6 "Switches" H 5500 3700 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 5500 3800 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 5500 3900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638" H 5500 4000 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 5500 4100 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 5500 4200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5500 4300 60  0001 L CNN "Status"
+	1    5300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:FSM4JSMATR S5
+U 1 1 5DC1AB65
+P 7050 3100
+F 0 "S5" H 7050 3447 60  0000 C CNN
+F 1 "FSM4JSMATR" H 7050 3341 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm" H 7250 3300 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 7250 3400 60  0001 L CNN
+F 4 "450-1759-1-ND" H 7250 3500 60  0001 L CNN "Digi-Key_PN"
+F 5 "FSM4JSMATR" H 7250 3600 60  0001 L CNN "MPN"
+F 6 "Switches" H 7250 3700 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 7250 3800 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 7250 3900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/FSM4JSMATR/450-1759-1-ND/2271638" H 7250 4000 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 7250 4100 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 7250 4200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7250 4300 60  0001 L CNN "Status"
+	1    7050 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2000 3750 2400
+Wire Wire Line
+	3750 2600 3750 2750
+Connection ~ 3750 3000
+Wire Wire Line
+	3750 3000 3750 3200
+Wire Wire Line
+	5500 2000 5500 2400
+Wire Wire Line
+	5500 2600 5500 2700
+Connection ~ 5500 3000
+Wire Wire Line
+	5500 3000 5500 3200
+Wire Wire Line
+	7250 2000 7250 2400
+Wire Wire Line
+	7250 2600 7250 2700
+Connection ~ 7250 3000
+Wire Wire Line
+	7250 3000 7250 3200
+Wire Wire Line
+	3350 3000 3350 3200
+Connection ~ 3350 3200
+Wire Wire Line
+	3350 3200 3350 3350
+Wire Wire Line
+	5100 3000 5100 3200
+Connection ~ 5100 3200
+Wire Wire Line
+	5100 3200 5100 3375
+Wire Wire Line
+	6850 3000 6850 3200
+Connection ~ 6850 3200
+Wire Wire Line
+	6850 3200 6850 3350
+Wire Wire Line
+	3750 3000 4000 3000
+Wire Wire Line
+	4000 3000 4000 2925
+Wire Wire Line
+	5500 3000 5750 3000
+Wire Wire Line
+	5750 3000 5750 2950
+Wire Wire Line
+	7250 3000 7500 3000
+Wire Wire Line
+	7500 3000 7500 2950
+$Comp
+L power:GND #PWR01
+U 1 1 5DC2C6D1
+P 3350 3450
+F 0 "#PWR01" H 3350 3200 50  0001 C CNN
+F 1 "GND" H 3355 3277 50  0000 C CNN
+F 2 "" H 3350 3450 50  0001 C CNN
+F 3 "" H 3350 3450 50  0001 C CNN
+	1    3350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5DC2D0A0
+P 5100 3500
+F 0 "#PWR05" H 5100 3250 50  0001 C CNN
+F 1 "GND" H 5105 3327 50  0000 C CNN
+F 2 "" H 5100 3500 50  0001 C CNN
+F 3 "" H 5100 3500 50  0001 C CNN
+	1    5100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5DC2D6FC
+P 6850 3500
+F 0 "#PWR09" H 6850 3250 50  0001 C CNN
+F 1 "GND" H 6855 3327 50  0000 C CNN
+F 2 "" H 6850 3500 50  0001 C CNN
+F 3 "" H 6850 3500 50  0001 C CNN
+	1    6850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5DC7AFA7
+P 3750 5000
+F 0 "R2" H 3809 5046 50  0000 L CNN
+F 1 "R_Small" H 3809 4955 50  0000 L CNN
+F 2 "OPL_Resistor:R0805" H 3750 5000 50  0001 C CNN
+F 3 "~" H 3750 5000 50  0001 C CNN
+	1    3750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5DC7AFAD
+P 5500 5000
+F 0 "R4" H 5559 5046 50  0000 L CNN
+F 1 "R_Small" H 5559 4955 50  0000 L CNN
+F 2 "OPL_Resistor:R0805" H 5500 5000 50  0001 C CNN
+F 3 "~" H 5500 5000 50  0001 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5DC7AFB3
+P 7250 5000
+F 0 "R6" H 7309 5046 50  0000 L CNN
+F 1 "R_Small" H 7309 4955 50  0000 L CNN
+F 2 "OPL_Resistor:R0805" H 7250 5000 50  0001 C CNN
+F 3 "~" H 7250 5000 50  0001 C CNN
+	1    7250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR04
+U 1 1 5DC7AFB9
+P 3750 4500
+F 0 "#PWR04" H 3750 4350 50  0001 C CNN
+F 1 "+3.3V" H 3765 4673 50  0000 C CNN
+F 2 "" H 3750 4500 50  0001 C CNN
+F 3 "" H 3750 4500 50  0001 C CNN
+	1    3750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR08
+U 1 1 5DC7AFBF
+P 5500 4500
+F 0 "#PWR08" H 5500 4350 50  0001 C CNN
+F 1 "+3.3V" H 5515 4673 50  0000 C CNN
+F 2 "" H 5500 4500 50  0001 C CNN
+F 3 "" H 5500 4500 50  0001 C CNN
+	1    5500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR012
+U 1 1 5DC7AFC5
+P 7250 4500
+F 0 "#PWR012" H 7250 4350 50  0001 C CNN
+F 1 "+3.3V" H 7265 4673 50  0000 C CNN
+F 2 "" H 7250 4500 50  0001 C CNN
+F 3 "" H 7250 4500 50  0001 C CNN
+	1    7250 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4500 3750 4900
+Wire Wire Line
+	5500 4500 5500 4900
+Wire Wire Line
+	7250 4500 7250 4900
+$Comp
+L power:GND #PWR02
+U 1 1 5DC7B013
+P 3350 5950
+F 0 "#PWR02" H 3350 5700 50  0001 C CNN
+F 1 "GND" H 3355 5777 50  0000 C CNN
+F 2 "" H 3350 5950 50  0001 C CNN
+F 3 "" H 3350 5950 50  0001 C CNN
+	1    3350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5DC7B019
+P 5100 6000
+F 0 "#PWR06" H 5100 5750 50  0001 C CNN
+F 1 "GND" H 5105 5827 50  0000 C CNN
+F 2 "" H 5100 6000 50  0001 C CNN
+F 3 "" H 5100 6000 50  0001 C CNN
+	1    5100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5DC7B01F
+P 6850 6000
+F 0 "#PWR010" H 6850 5750 50  0001 C CNN
+F 1 "GND" H 6855 5827 50  0000 C CNN
+F 2 "" H 6850 6000 50  0001 C CNN
+F 3 "" H 6850 6000 50  0001 C CNN
+	1    6850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Tactile-Switches:EVQ-Q2Y03W S6
+U 1 1 5DC80E6F
+P 7100 5650
+F 0 "S6" V 7004 5888 50  0000 L CNN
+F 1 "EVQ-Q2Y03W" V 7095 5888 50  0000 L CNN
+F 2 "digikey-footprints:EVQ-Q2Y03W" H 7100 5600 50  0001 C CNN
+F 3 "" H 7100 5600 50  0001 C CNN
+	1    7100 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Tactile-Switches:EVQ-Q2Y03W S4
+U 1 1 5DC83DBA
+P 5350 5650
+F 0 "S4" V 5254 5888 50  0000 L CNN
+F 1 "EVQ-Q2Y03W" V 5345 5888 50  0000 L CNN
+F 2 "digikey-footprints:EVQ-Q2Y03W" H 5350 5600 50  0001 C CNN
+F 3 "" H 5350 5600 50  0001 C CNN
+	1    5350 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Tactile-Switches:EVQ-Q2Y03W S2
+U 1 1 5DC853D7
+P 3600 5600
+F 0 "S2" V 3504 5838 50  0000 L CNN
+F 1 "EVQ-Q2Y03W" V 3595 5838 50  0000 L CNN
+F 2 "digikey-footprints:EVQ-Q2Y03W" H 3600 5550 50  0001 C CNN
+F 3 "" H 3600 5550 50  0001 C CNN
+	1    3600 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 5100 7250 5250
+Wire Wire Line
+	7250 5800 7250 6000
+Wire Wire Line
+	7250 6000 7500 6000
+Wire Wire Line
+	7500 6000 7500 5250
+Wire Wire Line
+	7500 5250 7250 5250
+Connection ~ 7250 5250
+Wire Wire Line
+	7250 5250 7250 5400
+Wire Wire Line
+	5500 5400 5500 5250
+Wire Wire Line
+	3750 5350 3750 5200
+Wire Wire Line
+	3750 5750 3750 5950
+Wire Wire Line
+	3750 5950 4000 5950
+Wire Wire Line
+	4000 5950 4000 5200
+Wire Wire Line
+	4000 5200 3750 5200
+Connection ~ 3750 5200
+Wire Wire Line
+	3750 5200 3750 5100
+Wire Wire Line
+	5500 5250 5750 5250
+Wire Wire Line
+	5750 5250 5750 6000
+Wire Wire Line
+	5750 6000 5500 6000
+Wire Wire Line
+	5500 6000 5500 5800
+Connection ~ 5500 5250
+Wire Wire Line
+	5500 5250 5500 5100
+Wire Wire Line
+	5150 5400 5150 5800
+Wire Wire Line
+	5100 6000 5100 5900
+Wire Wire Line
+	5100 5800 5150 5800
+Connection ~ 5150 5800
+Wire Wire Line
+	6850 6000 6850 5900
+Wire Wire Line
+	6850 5800 6900 5800
+Wire Wire Line
+	6900 5400 6900 5800
+Connection ~ 6900 5800
+Wire Wire Line
+	3400 5350 3400 5750
+Wire Wire Line
+	3350 5950 3350 5850
+Wire Wire Line
+	3350 5750 3400 5750
+Connection ~ 3400 5750
+Wire Wire Line
+	4000 5200 4250 5200
+Connection ~ 4000 5200
+Wire Wire Line
+	5750 5250 6000 5250
+Connection ~ 5750 5250
+Wire Wire Line
+	7500 5250 7750 5250
+Connection ~ 7500 5250
+Text Label 4000 2925 0    50   ~ 0
+TOP_LEFT
+Text Label 5750 2950 0    50   ~ 0
+TOP_MIDDLE
+Text Label 7500 2950 0    50   ~ 0
+TOP_RIGHT
+Text Label 4250 5200 0    50   ~ 0
+BOTTOM_LEFT
+Text Label 6000 5250 0    50   ~ 0
+BOTTOM_MIDDLE
+Text Label 7750 5250 0    50   ~ 0
+BOTTOM_RIGHT
+$Comp
+L power:GND #PWR014
+U 1 1 5DC31393
+P 10825 6150
+F 0 "#PWR014" H 10825 5900 50  0001 C CNN
+F 1 "GND" H 10830 5977 50  0000 C CNN
+F 2 "" H 10825 6150 50  0001 C CNN
+F 3 "" H 10825 6150 50  0001 C CNN
+	1    10825 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR013
+U 1 1 5DC30B50
+P 10325 6125
+F 0 "#PWR013" H 10325 5975 50  0001 C CNN
+F 1 "+3.3V" H 10340 6298 50  0000 C CNN
+F 2 "" H 10325 6125 50  0001 C CNN
+F 3 "" H 10325 6125 50  0001 C CNN
+	1    10325 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5DC302B9
+P 10325 6125
+F 0 "#FLG01" H 10325 6200 50  0001 C CNN
+F 1 "PWR_FLAG" H 10325 6298 50  0000 C CNN
+F 2 "" H 10325 6125 50  0001 C CNN
+F 3 "~" H 10325 6125 50  0001 C CNN
+	1    10325 6125
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5DC2E048
+P 10825 6150
+F 0 "#FLG02" H 10825 6225 50  0001 C CNN
+F 1 "PWR_FLAG" H 10825 6323 50  0000 C CNN
+F 2 "" H 10825 6150 50  0001 C CNN
+F 3 "~" H 10825 6150 50  0001 C CNN
+	1    10825 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR07
+U 1 1 5DC1119B
+P 5500 2000
+F 0 "#PWR07" H 5500 1850 50  0001 C CNN
+F 1 "+3.3V" H 5515 2173 50  0000 C CNN
+F 2 "" H 5500 2000 50  0001 C CNN
+F 3 "" H 5500 2000 50  0001 C CNN
+	1    5500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5DCBF0C8
+P 2750 3100
+F 0 "C1" H 2842 3146 50  0000 L CNN
+F 1 "C_Small" H 2842 3055 50  0000 L CNN
+F 2 "OPL_Capacitor:C0805" H 2750 3100 50  0001 C CNN
+F 3 "~" H 2750 3100 50  0001 C CNN
+	1    2750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5DCC13E0
+P 2750 5600
+F 0 "C2" H 2842 5646 50  0000 L CNN
+F 1 "C_Small" H 2842 5555 50  0000 L CNN
+F 2 "OPL_Capacitor:C0805" H 2750 5600 50  0001 C CNN
+F 3 "~" H 2750 5600 50  0001 C CNN
+	1    2750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5DCC3081
+P 4500 3100
+F 0 "C3" H 4592 3146 50  0000 L CNN
+F 1 "C_Small" H 4592 3055 50  0000 L CNN
+F 2 "OPL_Capacitor:C0805" H 4500 3100 50  0001 C CNN
+F 3 "~" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5DCC3916
+P 6250 3100
+F 0 "C5" H 6342 3146 50  0000 L CNN
+F 1 "C_Small" H 6342 3055 50  0000 L CNN
+F 2 "OPL_Capacitor:C0805" H 6250 3100 50  0001 C CNN
+F 3 "~" H 6250 3100 50  0001 C CNN
+	1    6250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5DCC4408
+P 6500 5600
+F 0 "C6" H 6592 5646 50  0000 L CNN
+F 1 "C_Small" H 6592 5555 50  0000 L CNN
+F 2 "OPL_Capacitor:C0805" H 6500 5600 50  0001 C CNN
+F 3 "~" H 6500 5600 50  0001 C CNN
+	1    6500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5DCC4E35
+P 4750 5600
+F 0 "C4" H 4842 5646 50  0000 L CNN
+F 1 "C_Small" H 4842 5555 50  0000 L CNN
+F 2 "OPL_Capacitor:C0805" H 4750 5600 50  0001 C CNN
+F 3 "~" H 4750 5600 50  0001 C CNN
+	1    4750 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2750 2750 2750
+Wire Wire Line
+	2750 2750 2750 3000
+Connection ~ 3750 2750
+Wire Wire Line
+	3750 2750 3750 3000
+Wire Wire Line
+	2750 3200 2750 3350
+Wire Wire Line
+	2750 3350 3350 3350
+Connection ~ 3350 3350
+Wire Wire Line
+	3350 3350 3350 3450
+Wire Wire Line
+	5500 2700 4500 2700
+Wire Wire Line
+	4500 2700 4500 3000
+Connection ~ 5500 2700
+Wire Wire Line
+	5500 2700 5500 3000
+Wire Wire Line
+	4500 3200 4500 3375
+Wire Wire Line
+	4500 3375 5100 3375
+Connection ~ 5100 3375
+Wire Wire Line
+	5100 3375 5100 3500
+Wire Wire Line
+	7250 2700 6250 2700
+Wire Wire Line
+	6250 2700 6250 3000
+Connection ~ 7250 2700
+Wire Wire Line
+	7250 2700 7250 3000
+Wire Wire Line
+	6250 3200 6250 3350
+Wire Wire Line
+	6250 3350 6850 3350
+Connection ~ 6850 3350
+Wire Wire Line
+	6850 3350 6850 3500
+Wire Wire Line
+	7250 5250 6500 5250
+Wire Wire Line
+	6500 5250 6500 5500
+Wire Wire Line
+	6500 5700 6500 5900
+Wire Wire Line
+	6500 5900 6850 5900
+Connection ~ 6850 5900
+Wire Wire Line
+	6850 5900 6850 5800
+Wire Wire Line
+	5500 5250 4750 5250
+Wire Wire Line
+	4750 5250 4750 5500
+Wire Wire Line
+	4750 5700 4750 5900
+Wire Wire Line
+	4750 5900 5100 5900
+Connection ~ 5100 5900
+Wire Wire Line
+	5100 5900 5100 5800
+Wire Wire Line
+	3750 5200 2750 5200
+Wire Wire Line
+	2750 5200 2750 5500
+Wire Wire Line
+	2750 5700 2750 5850
+Wire Wire Line
+	2750 5850 3350 5850
+Connection ~ 3350 5850
+Wire Wire Line
+	3350 5850 3350 5750
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5DCE880D
+P 8250 2750
+F 0 "J1" H 8358 2931 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 8358 2840 50  0000 C CNN
+F 2 "OPL_Connector:H2-2.54" H 8250 2750 50  0001 C CNN
+F 3 "~" H 8250 2750 50  0001 C CNN
+	1    8250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR015
+U 1 1 5DCE9776
+P 8750 2750
+F 0 "#PWR015" H 8750 2600 50  0001 C CNN
+F 1 "+3.3V" H 8765 2923 50  0000 C CNN
+F 2 "" H 8750 2750 50  0001 C CNN
+F 3 "" H 8750 2750 50  0001 C CNN
+	1    8750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5DCEA100
+P 8750 2850
+F 0 "#PWR016" H 8750 2600 50  0001 C CNN
+F 1 "GND" H 8755 2677 50  0000 C CNN
+F 2 "" H 8750 2850 50  0001 C CNN
+F 3 "" H 8750 2850 50  0001 C CNN
+	1    8750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2750 8450 2750
+Wire Wire Line
+	8450 2850 8750 2850
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5DD023FC
+P 9500 2550
+F 0 "J2" V 9562 2694 50  0000 L CNN
+F 1 "Conn_01x03_Male" V 9653 2694 50  0000 L CNN
+F 2 "OPL_Connector:H3-2.54" H 9500 2550 50  0001 C CNN
+F 3 "~" H 9500 2550 50  0001 C CNN
+	1    9500 2550
+	0    1    1    0   
+$EndComp
+Text Label 9400 2900 3    50   ~ 0
+TOP_LEFT
+Text Label 9500 2900 3    50   ~ 0
+TOP_MIDDLE
+Text Label 9600 2900 3    50   ~ 0
+TOP_RIGHT
+Text Label 9600 3375 3    50   ~ 0
+BOTTOM_LEFT
+Text Label 9500 3375 3    50   ~ 0
+BOTTOM_MIDDLE
+Text Label 9400 3375 3    50   ~ 0
+BOTTOM_RIGHT
+Wire Wire Line
+	9400 2750 9400 2875
+Wire Wire Line
+	9500 3375 9500 2875
+Wire Wire Line
+	9600 3375 9600 2875
+Connection ~ 9600 2875
+Wire Wire Line
+	9600 2875 9600 2750
+Connection ~ 9500 2875
+Wire Wire Line
+	9500 2875 9500 2750
+Connection ~ 9400 2875
+Wire Wire Line
+	9400 2875 9400 3375
+$EndSCHEMATC
